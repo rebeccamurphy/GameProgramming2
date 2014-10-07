@@ -141,6 +141,9 @@
 		2F90673B19E363DE000AA3AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90673A19E363DE000AA3AE /* AppDelegate.m */; };
 		2F90673E19E363DE000AA3AE /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90673D19E363DE000AA3AE /* HelloWorldLayer.m */; };
 		2F90674119E363DE000AA3AE /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90674019E363DE000AA3AE /* IntroLayer.m */; };
+		2F90674C19E36BAC000AA3AE /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90674B19E36BAC000AA3AE /* MainScreen.m */; };
+		2F90674F19E37451000AA3AE /* QuitScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90674E19E37451000AA3AE /* QuitScreen.m */; };
+		2F90675219E3792D000AA3AE /* OptionsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675119E3792D000AA3AE /* OptionsScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +428,12 @@
 		2F90673D19E363DE000AA3AE /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		2F90673F19E363DE000AA3AE /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		2F90674019E363DE000AA3AE /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		2F90674A19E36BAC000AA3AE /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		2F90674B19E36BAC000AA3AE /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		2F90674D19E37451000AA3AE /* QuitScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuitScreen.h; sourceTree = "<group>"; };
+		2F90674E19E37451000AA3AE /* QuitScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitScreen.m; sourceTree = "<group>"; };
+		2F90675019E3792D000AA3AE /* OptionsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsScreen.h; sourceTree = "<group>"; };
+		2F90675119E3792D000AA3AE /* OptionsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +500,7 @@
 				2F90673D19E363DE000AA3AE /* HelloWorldLayer.m */,
 				2F90673F19E363DE000AA3AE /* IntroLayer.h */,
 				2F90674019E363DE000AA3AE /* IntroLayer.m */,
+				2F90674719E36615000AA3AE /* Screens */,
 				2F9065A919E363DC000AA3AE /* Resources */,
 				2F9065C119E363DC000AA3AE /* libs */,
 				2F90673519E363DE000AA3AE /* Supporting Files */,
@@ -879,6 +889,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2F90674719E36615000AA3AE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2F90674A19E36BAC000AA3AE /* MainScreen.h */,
+				2F90674B19E36BAC000AA3AE /* MainScreen.m */,
+				2F90674D19E37451000AA3AE /* QuitScreen.h */,
+				2F90674E19E37451000AA3AE /* QuitScreen.m */,
+				2F90675019E3792D000AA3AE /* OptionsScreen.h */,
+				2F90675119E3792D000AA3AE /* OptionsScreen.m */,
+			);
+			name = Screens;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -995,6 +1019,7 @@
 				2F9065C819E363DC000AA3AE /* CCActionCamera.m in Sources */,
 				2F9066FA19E363DD000AA3AE /* CDXPropertyModifierAction.m in Sources */,
 				2F9066CA19E363DD000AA3AE /* CCArray.m in Sources */,
+				2F90675219E3792D000AA3AE /* OptionsScreen.m in Sources */,
 				2F90672719E363DE000AA3AE /* plane.c in Sources */,
 				2F9066D319E363DD000AA3AE /* CCProfiling.m in Sources */,
 				2F90666A19E363DD000AA3AE /* CCShaderCache.m in Sources */,
@@ -1025,6 +1050,7 @@
 				2F9066B619E363DD000AA3AE /* CCTouchHandler.m in Sources */,
 				2F90663019E363DD000AA3AE /* CCMotionStreak.m in Sources */,
 				2F9066AF19E363DD000AA3AE /* CCGLView.m in Sources */,
+				2F90674F19E37451000AA3AE /* QuitScreen.m in Sources */,
 				2F9066DC19E363DD000AA3AE /* CGPointExtension.m in Sources */,
 				2F9065E019E363DC000AA3AE /* CCActionPageTurn3D.m in Sources */,
 				2F90673119E363DE000AA3AE /* vec3.c in Sources */,
@@ -1066,6 +1092,7 @@
 				2F9065F519E363DC000AA3AE /* CCCamera.m in Sources */,
 				2F9065EF19E363DC000AA3AE /* CCAnimationCache.m in Sources */,
 				2F90661119E363DC000AA3AE /* CCGLProgram.m in Sources */,
+				2F90674C19E36BAC000AA3AE /* MainScreen.m in Sources */,
 				2F90670119E363DE000AA3AE /* SimpleAudioEngine.m in Sources */,
 				2F9066B319E363DD000AA3AE /* CCTouchDispatcher.m in Sources */,
 				2F90663619E363DD000AA3AE /* CCNode.m in Sources */,
@@ -1125,6 +1152,7 @@
 				GCC_PREFIX_HEADER = KittenKanoodler/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"KittenKanoodler/libs/kazmath/include\"";
 				INFOPLIST_FILE = KittenKanoodler/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1144,6 +1172,7 @@
 				GCC_PREFIX_HEADER = KittenKanoodler/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"KittenKanoodler/libs/kazmath/include\"";
 				INFOPLIST_FILE = KittenKanoodler/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
