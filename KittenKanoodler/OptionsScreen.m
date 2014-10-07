@@ -7,7 +7,9 @@
 //
 
 #import "OptionsScreen.h"
-
+#import "AudioScreen.h"
+#import "HighScoresScreen.h"
+#import "SkillLevelScreen.h"
 
 @implementation OptionsScreen
 + (CCScene *) scene
@@ -44,13 +46,13 @@
         
         //Add the buttons to the screen
         CCMenuItem *audioButton =
-        [CCMenuItemFont itemWithString:@"Audio" target:self selector:@selector(audioButton:)];
+        [CCMenuItemFont itemWithString:@"Audio" target:self selector:@selector(audio:)];
         
         CCMenuItem *skillLevelButton =
-        [CCMenuItemFont itemWithString:@"Skill Level" target:self selector:@selector(skillLevelButton:)];
+        [CCMenuItemFont itemWithString:@"Skill Level" target:self selector:@selector(skillLevel:)];
         
         CCMenuItem * highScoresButton =
-        [CCMenuItemFont itemWithString:@"High Scores" target:self selector:@selector(highScoresButton:)];
+        [CCMenuItemFont itemWithString:@"High Scores" target:self selector:@selector(highScores:)];
         
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];

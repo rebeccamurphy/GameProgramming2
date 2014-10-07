@@ -144,6 +144,9 @@
 		2F90674C19E36BAC000AA3AE /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90674B19E36BAC000AA3AE /* MainScreen.m */; };
 		2F90674F19E37451000AA3AE /* QuitScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90674E19E37451000AA3AE /* QuitScreen.m */; };
 		2F90675219E3792D000AA3AE /* OptionsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675119E3792D000AA3AE /* OptionsScreen.m */; };
+		2F90675519E3867C000AA3AE /* AudioScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675419E3867C000AA3AE /* AudioScreen.m */; };
+		2F90675819E388D6000AA3AE /* SkillLevelScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675719E388D6000AA3AE /* SkillLevelScreen.m */; };
+		2F90675B19E38AD8000AA3AE /* HighScoresScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -434,6 +437,12 @@
 		2F90674E19E37451000AA3AE /* QuitScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitScreen.m; sourceTree = "<group>"; };
 		2F90675019E3792D000AA3AE /* OptionsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsScreen.h; sourceTree = "<group>"; };
 		2F90675119E3792D000AA3AE /* OptionsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsScreen.m; sourceTree = "<group>"; };
+		2F90675319E3867C000AA3AE /* AudioScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioScreen.h; sourceTree = "<group>"; };
+		2F90675419E3867C000AA3AE /* AudioScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioScreen.m; sourceTree = "<group>"; };
+		2F90675619E388D6000AA3AE /* SkillLevelScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillLevelScreen.h; sourceTree = "<group>"; };
+		2F90675719E388D6000AA3AE /* SkillLevelScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillLevelScreen.m; sourceTree = "<group>"; };
+		2F90675919E38AD8000AA3AE /* HighScoresScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresScreen.h; sourceTree = "<group>"; };
+		2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -898,6 +907,12 @@
 				2F90674E19E37451000AA3AE /* QuitScreen.m */,
 				2F90675019E3792D000AA3AE /* OptionsScreen.h */,
 				2F90675119E3792D000AA3AE /* OptionsScreen.m */,
+				2F90675319E3867C000AA3AE /* AudioScreen.h */,
+				2F90675419E3867C000AA3AE /* AudioScreen.m */,
+				2F90675619E388D6000AA3AE /* SkillLevelScreen.h */,
+				2F90675719E388D6000AA3AE /* SkillLevelScreen.m */,
+				2F90675919E38AD8000AA3AE /* HighScoresScreen.h */,
+				2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */,
 			);
 			name = Screens;
 			path = ..;
@@ -990,8 +1005,10 @@
 				2F9065FF19E363DC000AA3AE /* ccDeprecated.m in Sources */,
 				2F9066BA19E363DD000AA3AE /* CCDirectorMac.m in Sources */,
 				2F90661419E363DC000AA3AE /* ccGLStateCache.m in Sources */,
+				2F90675819E388D6000AA3AE /* SkillLevelScreen.m in Sources */,
 				2F9066E619E363DD000AA3AE /* TransformUtils.m in Sources */,
 				2F90663319E363DD000AA3AE /* CCNode+Debug.m in Sources */,
+				2F90675B19E38AD8000AA3AE /* HighScoresScreen.m in Sources */,
 				2F90660E19E363DC000AA3AE /* ccFPSImages.m in Sources */,
 				2F90669419E363DD000AA3AE /* CCTMXXMLParser.m in Sources */,
 				2F90672B19E363DE000AA3AE /* ray2.c in Sources */,
@@ -1059,6 +1076,7 @@
 				2F90671719E363DE000AA3AE /* aabb.c in Sources */,
 				2F90668E19E363DD000AA3AE /* CCTMXObjectGroup.m in Sources */,
 				2F9066F019E363DD000AA3AE /* CDAudioManager.m in Sources */,
+				2F90675519E3867C000AA3AE /* AudioScreen.m in Sources */,
 				2F90669D19E363DD000AA3AE /* CCTransitionProgress.m in Sources */,
 				2F9066C019E363DD000AA3AE /* CCGLView.m in Sources */,
 				2F9066F419E363DD000AA3AE /* CDOpenALSupport.m in Sources */,
