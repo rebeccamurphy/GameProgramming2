@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F19E7F919E5DF9200687BD8 /* HighScoreScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19E7F819E5DF9200687BD8 /* HighScoreScreen.m */; };
+		2F19E7FC19E5EA1A00687BD8 /* PauseScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19E7FB19E5EA1A00687BD8 /* PauseScreen.m */; };
+		2F19E7FF19E5EDCC00687BD8 /* GameOverScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19E7FE19E5EDCC00687BD8 /* GameOverScreen.m */; };
+		2F19E80219E5EFEF00687BD8 /* TestGameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19E80119E5EFEF00687BD8 /* TestGameScreen.m */; };
 		2F90659519E363DC000AA3AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F90659419E363DC000AA3AE /* QuartzCore.framework */; };
 		2F90659719E363DC000AA3AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F90659619E363DC000AA3AE /* OpenGLES.framework */; };
 		2F90659919E363DC000AA3AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F90659819E363DC000AA3AE /* OpenAL.framework */; };
@@ -150,6 +154,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F19E7F719E5DF9200687BD8 /* HighScoreScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreScreen.h; sourceTree = "<group>"; };
+		2F19E7F819E5DF9200687BD8 /* HighScoreScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreScreen.m; sourceTree = "<group>"; };
+		2F19E7FA19E5EA1A00687BD8 /* PauseScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseScreen.h; sourceTree = "<group>"; };
+		2F19E7FB19E5EA1A00687BD8 /* PauseScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseScreen.m; sourceTree = "<group>"; };
+		2F19E7FD19E5EDCC00687BD8 /* GameOverScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScreen.h; sourceTree = "<group>"; };
+		2F19E7FE19E5EDCC00687BD8 /* GameOverScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScreen.m; sourceTree = "<group>"; };
+		2F19E80019E5EFEF00687BD8 /* TestGameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGameScreen.h; sourceTree = "<group>"; };
+		2F19E80119E5EFEF00687BD8 /* TestGameScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGameScreen.m; sourceTree = "<group>"; };
 		2F90659119E363DC000AA3AE /* KittenKanoodler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenKanoodler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F90659419E363DC000AA3AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2F90659619E363DC000AA3AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -901,10 +913,14 @@
 		2F90674719E36615000AA3AE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2F19E80019E5EFEF00687BD8 /* TestGameScreen.h */,
+				2F19E80119E5EFEF00687BD8 /* TestGameScreen.m */,
 				2F90674A19E36BAC000AA3AE /* MainScreen.h */,
 				2F90674B19E36BAC000AA3AE /* MainScreen.m */,
 				2F90674D19E37451000AA3AE /* QuitScreen.h */,
 				2F90674E19E37451000AA3AE /* QuitScreen.m */,
+				2F19E7FA19E5EA1A00687BD8 /* PauseScreen.h */,
+				2F19E7FB19E5EA1A00687BD8 /* PauseScreen.m */,
 				2F90675019E3792D000AA3AE /* OptionsScreen.h */,
 				2F90675119E3792D000AA3AE /* OptionsScreen.m */,
 				2F90675319E3867C000AA3AE /* AudioScreen.h */,
@@ -913,6 +929,10 @@
 				2F90675719E388D6000AA3AE /* SkillLevelScreen.m */,
 				2F90675919E38AD8000AA3AE /* HighScoresScreen.h */,
 				2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */,
+				2F19E7F719E5DF9200687BD8 /* HighScoreScreen.h */,
+				2F19E7F819E5DF9200687BD8 /* HighScoreScreen.m */,
+				2F19E7FD19E5EDCC00687BD8 /* GameOverScreen.h */,
+				2F19E7FE19E5EDCC00687BD8 /* GameOverScreen.m */,
 			);
 			name = Screens;
 			path = ..;
@@ -1030,6 +1050,7 @@
 				2F90667F19E363DD000AA3AE /* CCTextureAtlas.m in Sources */,
 				2F90672D19E363DE000AA3AE /* utility.c in Sources */,
 				2F9066D919E363DD000AA3AE /* CCVertex.m in Sources */,
+				2F19E7FF19E5EDCC00687BD8 /* GameOverScreen.m in Sources */,
 				2F9066DF19E363DD000AA3AE /* NSThread+performBlock.m in Sources */,
 				2F9065E619E363DC000AA3AE /* CCActionTiledGrid.m in Sources */,
 				2F90662D19E363DC000AA3AE /* CCMenuItem.m in Sources */,
@@ -1056,6 +1077,7 @@
 				2F9065C519E363DC000AA3AE /* CCAction.m in Sources */,
 				2F9066FD19E363DE000AA3AE /* CocosDenshion.m in Sources */,
 				2F90668219E363DD000AA3AE /* CCTextureCache.m in Sources */,
+				2F19E80219E5EFEF00687BD8 /* TestGameScreen.m in Sources */,
 				2F90672519E363DE000AA3AE /* neon_matrix_impl.c in Sources */,
 				2F90665519E363DD000AA3AE /* CCScene.m in Sources */,
 				2F9065D419E363DC000AA3AE /* CCActionGrid3D.m in Sources */,
@@ -1086,6 +1108,7 @@
 				2F90669119E363DD000AA3AE /* CCTMXTiledMap.m in Sources */,
 				2F90665219E363DD000AA3AE /* CCRenderTexture.m in Sources */,
 				2F9065DA19E363DC000AA3AE /* CCActionInterval.m in Sources */,
+				2F19E7F919E5DF9200687BD8 /* HighScoreScreen.m in Sources */,
 				2F90664819E363DD000AA3AE /* CCPhysicsDebugNode.m in Sources */,
 				2F9065CE19E363DC000AA3AE /* CCActionEase.m in Sources */,
 				2F90660B19E363DC000AA3AE /* CCFontDefinition.m in Sources */,
@@ -1105,6 +1128,7 @@
 				2F9065FC19E363DC000AA3AE /* CCConfiguration.m in Sources */,
 				2F90665819E363DD000AA3AE /* CCScheduler.m in Sources */,
 				2F9066A819E363DD000AA3AE /* CCDirectorIOS.m in Sources */,
+				2F19E7FC19E5EA1A00687BD8 /* PauseScreen.m in Sources */,
 				2F90662A19E363DC000AA3AE /* CCMenu.m in Sources */,
 				2F90673319E363DE000AA3AE /* vec4.c in Sources */,
 				2F9065F519E363DC000AA3AE /* CCCamera.m in Sources */,
@@ -1221,6 +1245,7 @@
 				2F90674619E363DE000AA3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

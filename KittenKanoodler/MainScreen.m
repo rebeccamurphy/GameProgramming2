@@ -9,6 +9,7 @@
 #import "MainScreen.h"
 #import "QuitScreen.h"
 #import "OptionsScreen.h"
+#import "TestGameScreen.h"
 
 @implementation MainScreen
 
@@ -54,7 +55,8 @@
     return self;
 }
 - (void) onStart: (CCMenuItemFont*) button {
-    //do nothing ...yet
+    //Created a test game screen for testing purposes only.  I'll leave it here but commented out until we implement the real game screen.
+    //[[CCDirector sharedDirector] pushScene:[TestGameScreen scene]];
 }
 
 - (void) onOptions: (CCMenuItemFont*) button{
