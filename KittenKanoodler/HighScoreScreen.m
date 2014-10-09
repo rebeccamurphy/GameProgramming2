@@ -59,5 +59,8 @@
 
 - (void) onBack:(CCMenuItemFont*) button{
     [[CCDirector sharedDirector] popScene];
+    [[CCDirector sharedDirector] popScene];
+    [[CCDirector sharedDirector] popScene];
+
 }
 @end

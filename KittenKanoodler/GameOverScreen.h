@@ -20,4 +20,7 @@
 /** Handles pressing Return to Main Menu to quit*/
 - (void) onBack:(CCMenuItemFont*) button;
 
+/** Handles pressing New High Score*/
+- (void) onHighScore: (CCMenuItemFont*) button;
+
 @end

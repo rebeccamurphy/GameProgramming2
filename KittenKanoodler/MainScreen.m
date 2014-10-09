@@ -56,7 +56,7 @@
 }
 - (void) onStart: (CCMenuItemFont*) button {
     //Created a test game screen for testing purposes only.  I'll leave it here but commented out until we implement the real game screen.
-    //[[CCDirector sharedDirector] pushScene:[TestGameScreen scene]];
+    [[CCDirector sharedDirector] pushScene:[TestGameScreen scene]];
 }
 
 - (void) onOptions: (CCMenuItemFont*) button{

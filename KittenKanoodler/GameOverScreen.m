@@ -8,6 +8,7 @@
 
 #import "GameOverScreen.h"
 #import "MainScreen.h"
+#import "HighScoreScreen.h"
 
 
 @implementation GameOverScreen
@@ -47,7 +48,10 @@
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Return to Main Menu" target:self selector:@selector(onBack:)];
         
-        CCMenu *gameOverMenu = [CCMenu menuWithItems:backButton, nil];
+        CCMenuItem *highScoreButton =
+        [CCMenuItemFont itemWithString:@"New High Score!" target:self selector:@selector(onHighScore:)];
+        
+        CCMenu *gameOverMenu = [CCMenu menuWithItems:backButton,highScoreButton,nil];
         [gameOverMenu alignItemsVertically];
         [gameOverMenu setPosition:ccp(screenWidth/2, screenHeight*0.25f)];
         
@@ -58,6 +62,11 @@
     return self;
 }
 - (void) onBack:(CCMenuItemFont*) button{
-    [[CCDirector sharedDirector] pushScene:[MainScreen scene]];
+    [[CCDirector sharedDirector] popScene];
+    [[CCDirector sharedDirector] popScene];
+}
+
+- (void) onHighScore: (CCMenuItemFont*) button {
+    [[CCDirector sharedDirector] pushScene:[HighScoreScreen scene]];
 }
 @end
