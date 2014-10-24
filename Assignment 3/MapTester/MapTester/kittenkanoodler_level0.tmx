@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Level 0" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2mEOgjAMhmE4g3gBz+H9z2Wa2DhhMNjHtnb73qR/NCHmsQtqnCeW2/wdlhf9sOiHRT8s+mHRD4t+WPTDoh8W/bDoh0U/LPpdbwmGflj0O98SeYx+WPRLF9s7jX5Y9NvvaO80+mHRb9uZvdPoh0W/X1f2TqMfFv2wRvZ7TP+/BTwzrjGy3x3RD2skv/V5zT2zYaP4qR3qtW4Ev1J2Uu9+Je2knv1K20m9+tWwk3r0q2Un9eZX007qya+kXfjZMbx+L361907rwa+VneTdr6Wd5NmvtZ3k1c+CneTRz4qd5M3Pkp3kyc+aneTFz6Kd5MHPqp3kwc9y9MOq4bf33Tv2/NHw/OLl/EelZHf7pXbtjiwZets/zYphrl+NPUtlwdDr/ml3GJ69f8XuZSk/C3uWqvZrDN8z7/vXIvrl9562fi8ONB8+shV7
+  </data>
+ </layer>
+ <layer name="Rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2jkOwCAMBEBakhD+/9t0qbHEIdBMvZK3slw4JQAAAAAAAE52ry4AAEA31+oCAAAAAAAA/HIw/wxpAdBHdKdBlH9W2ENtzL0NmVn3b5k0hzE+CAIAdQ==
+  </data>
+ </layer>
+ <layer name="Clouds" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1FkOgCAMBUATl/sfWS4gbiAFZ5L+GW0Lz2kCAADemlMtqdZUW+Ne3jiaI8p8uT6i9FjKaPP0pub+o+eMvB7OqXSPZ+/rYSdQ25Uc3M3KneflsB67Jafl/fj621GzELUv+Lsn2RwhzyPMQEzuFkBZ/qsAAAAAAAAAABDLDlwKAec=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Level1" tilewidth="16" tileheight="16">
+  <image source="../../Desktop/Assignment 3/tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztm9kOgjAQRes3uCRq4vri8v//J0abNNiC9HaZKfck80YpOc6UMuDCkFgW3yBx0B8G/WHQHwb9YdAfBv35WXaxCsTaOY7+MFx/PufrwDjygfmHQX8Y9IdBfxj0h0F/GPSHQX8Ypf0NPRdp3K8z/zDoD2PIX6jWStWYnV9yTWvIP8kec/nL0ctZJjhHajTkn4v7u0hwqc2fi4S6RvxJ6LfWzkfN+denRj625M9S0mOL/iwlPLbsz5JzjZyDP0sOj3Py55KqtufqzzLm8Tgyfu7+fPz77cYb+sOgP2NuwFjN/k6R41L2NTX7S8kmchz9faA/P//u80r4k9CvCoHuh3P7k9CrtOS4lpbrN9fzv7tvac1frnzfdrHrxd7o91eqD3/v4tGLp9HvTyul/NX+lmEM5h8G/WHQ3y+he62PQ+QcKfxJXdvOXVx6cQ0cW9OfVOgPY4o/rn+/1PY35T2KRGr70w79YUzxF0stf6F3XqeEc5TKv7H/tDCG7wMv/LcdlA==
+  </data>
+ </layer>
+ <layer name="stalks" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0bFNRQEMBMFfBSn9d0kKBMjoAvaJmcjh6vx6AQAA3739dcDD/XY/e39lv439Nvbb2G9jv439Nvbb2G9T2u+Jv7HfptRcarkqNZdarkrNpZarUnOp5arUXGq5KjWXWq5KzaWWq1JzqeWq1FxquSo1l1quSs2llqtSc6nlqtRcavnJ+6e71FxqeSL7bey3sd/Gfhv7bey3sd/Gfhv7bey3sd/GfgAAAMB/8gHAFgW2
+  </data>
+ </layer>
+ <layer name="enemies" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2TsSgyAQAFBvkjZNSsvc/1qZFGmcqAGZLAvvlTogP3cRlwUAgNk8G9e3Nq6vR63HDGplWIs9xYQM4wVAHj3luH9559IZ+w0j8P4CIyn9vi+Nf84P8tmbs/XgHnOKXA8lsci6jVezf/42b9trWffkI67Jszkesc9w1S26ATRxNb59Yqc4CQC/O8qbzq8AmF1NHmx9zioXM5p7dAMACBXxj9p+CtizjQ+PgjI1Zc+eTy4vwTAK4w==
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2sEKgzAMANCe1elh7G/2/981i4rHjVGWdL4HxYtIiDXWxlIAAHIY1zHvo3oGxnIVyzqG/bgExwIAAAC/MpVt/8E3cd+G6ACC3Bpe61Gum8eW6j05agrfq/Ox5fyOMEYHsOs9j1lYHwAAVze/PwUIYg8Ccsv0jNZ+yLF/me3dnilP/B/zK4epnH3ZbDUIMsvSbwL6UGvGse7PTG2DftzL9g8Pn1HfAKCdF13zAo0=
+  </data>
+ </layer>
+</map>
