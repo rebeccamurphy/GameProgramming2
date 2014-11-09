@@ -17,7 +17,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a test game screen and add it to the scene
     
     TestGameScreen * layer = [TestGameScreen node];
     [scene addChild:layer];

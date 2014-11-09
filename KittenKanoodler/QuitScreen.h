@@ -14,7 +14,7 @@
 /** Gets a scene to contain this layer */
 +(CCScene*) scene;
 
-/** Constructor for the main screen*/
+/** Constructor for the quit screen*/
 - (id) init;
 
 /** Handles pressing Yes to quit*/

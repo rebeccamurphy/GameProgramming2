@@ -9,6 +9,8 @@
 #import "GameOverScreen.h"
 #import "MainScreen.h"
 #import "HighScoreScreen.h"
+#import "Score.h"
+#import "Lives.h"
 
 
 @implementation GameOverScreen
@@ -17,7 +19,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a game over screen and add it to the scene
     
     GameOverScreen * layer = [GameOverScreen node];
     [scene addChild:layer];
@@ -30,10 +32,14 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        //Display quit?
+        //Display GAME OVER
         
         NSString *gameOverText = @"GAME OVER!";
         
+        [Lives increment];
+        [Lives increment];
+        [Lives increment];
+    
         CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:gameOverText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
         
         [label setColor:ccc3(0,255,0)];
@@ -48,25 +54,26 @@
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Return to Main Menu" target:self selector:@selector(onBack:)];
         
-        CCMenuItem *highScoreButton =
-        [CCMenuItemFont itemWithString:@"New High Score!" target:self selector:@selector(onHighScore:)];
-        
-        CCMenu *gameOverMenu = [CCMenu menuWithItems:backButton,highScoreButton,nil];
+        CCMenu *gameOverMenu = [CCMenu menuWithItems:backButton,nil];
         [gameOverMenu alignItemsVertically];
         [gameOverMenu setPosition:ccp(screenWidth/2, screenHeight*0.25f)];
         
         //Add the menu to the layer
         [self addChild:gameOverMenu];
         
+        //Deal with high scores
+        [Score setHighScores];
+        
     }
     return self;
 }
 - (void) onBack:(CCMenuItemFont*) button{
-    [[CCDirector sharedDirector] popScene];
-    [[CCDirector sharedDirector] popScene];
+    if([Score gotHighScore]) {
+        [[CCDirector sharedDirector] pushScene: [HighScoreScreen scene]];
+    }
+    else {
+        [[CCDirector sharedDirector] popScene];
+    }
 }
 
-- (void) onHighScore: (CCMenuItemFont*) button {
-    [[CCDirector sharedDirector] pushScene:[HighScoreScreen scene]];
-}
 @end

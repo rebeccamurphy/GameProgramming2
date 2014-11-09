@@ -15,7 +15,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a quit screen and add it to the scene
     
     QuitScreen * layer = [QuitScreen node];
     [scene addChild:layer];

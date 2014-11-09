@@ -14,13 +14,10 @@
 /** Gets a scene to contain this layer */
 +(CCScene*) scene;
 
-/** Constructor for the main screen*/
+/** Constructor for the game over screen*/
 - (id) init;
 
 /** Handles pressing Return to Main Menu to quit*/
 - (void) onBack:(CCMenuItemFont*) button;
-
-/** Handles pressing New High Score*/
-- (void) onHighScore: (CCMenuItemFont*) button;
 
 @end

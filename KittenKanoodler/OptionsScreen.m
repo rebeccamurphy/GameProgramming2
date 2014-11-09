@@ -33,9 +33,9 @@
         
         //Display Options
         
-        NSString *quitText = @"Options";
+        NSString *optionsText = @"Options";
         
-        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:quitText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
+        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:optionsText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
         
         [label setColor:ccc3(255,255,255)];
         //position the label on the center of the screen

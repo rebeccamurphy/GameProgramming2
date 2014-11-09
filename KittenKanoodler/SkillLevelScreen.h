@@ -14,7 +14,7 @@
 /** Gets a scene to contain this layer */
 +(CCScene*) scene;
 
-/** Constructor for the main screen*/
+/** Constructor for the skill level screen*/
 - (id) init;
 
 /** Handles skill level beginner */

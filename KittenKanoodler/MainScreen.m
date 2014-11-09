@@ -9,7 +9,7 @@
 #import "MainScreen.h"
 #import "QuitScreen.h"
 #import "OptionsScreen.h"
-#import "TestGameScreen.h"
+#import "InterLevel.h"
 
 @implementation MainScreen
 
@@ -31,11 +31,23 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        
         //Add the logo after we make it laters
         //CCSprite logo =[[CCSprite node] initWithFile:@"iball-logo2.png"];
         //[logo setPosition:ccp(screenWidth/2.0, screenHeight *.056f)];
         //[self addChild:logo]
+        NSString *titleText = @"KITTEN KANOODLER :3";
         
+        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:titleText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
+        
+        [label setColor:ccc3(0,255,0)];
+        
+        //position the label on the center of the screen
+        label.position= ccp(screenWidth/2, screenHeight/2);
+        
+        //add the label to the child layer
+        [self addChild:label];
+
         //Add the buttons to the menu
         CCMenuItem *startButton =
             [CCMenuItemFont itemWithString:@"Start" target:self selector:@selector(onStart:)];
@@ -55,8 +67,7 @@
     return self;
 }
 - (void) onStart: (CCMenuItemFont*) button {
-    //Created a test game screen for testing purposes only.  I'll leave it here but commented out until we implement the real game screen.
-    [[CCDirector sharedDirector] pushScene:[TestGameScreen scene]];
+    [[CCDirector sharedDirector] pushScene:[InterLevel scene]];
 }
 
 - (void) onOptions: (CCMenuItemFont*) button{

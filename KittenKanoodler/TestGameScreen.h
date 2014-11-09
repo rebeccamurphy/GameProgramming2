@@ -9,19 +9,19 @@
 #import "CCLayer.h"
 #import "cocos2d.h"
 
-/** Main screen layer which runs the main menu */
+/** Test game screen layer which runs the temporary placeholder game screen */
 @interface TestGameScreen : CCLayer
 
 /** Gets a scene to contain this layer*/
 + (CCScene *) scene;
 
-/** Constructor for the main screen */
+/** Constructor for the test game screen */
 - (id) init;
 
-/** Handles pressing the start button*/
+/** Handles pressing the game over button*/
 - (void) onGameOver: (CCMenuItemFont*) button;
 
-/**Handles pressing the Options button*/
+/**Handles pressing the pause button*/
 
 - (void) onPause:(CCMenuItemFont*) button;
 

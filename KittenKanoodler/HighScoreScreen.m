@@ -7,6 +7,8 @@
 //
 
 #import "HighScoreScreen.h"
+#import "Score.h"
+#import "HighScoresScreen.h"
 
 
 @implementation HighScoreScreen
@@ -15,7 +17,7 @@
     //get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a options screen and add it to the scene
+    //Construct a high score screen and add it to the scene
     
     HighScoreScreen *layer = [HighScoreScreen node];
     
@@ -31,7 +33,7 @@
         
         //Display Options
         
-        NSString *highScoreText = @"High Score!";
+        NSString *highScoreText = @"You got a new High Score!";
         
         CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:highScoreText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
         
@@ -42,11 +44,25 @@
         //add the label to the child layer
         [self addChild:label];
         
+        NSString *highScore = [NSString stringWithFormat:@"%d",[Score getNewHighScore]];
+        
+        CCLabelTTF* label2 = (CCLabelTTF*)[CCLabelTTF labelWithString:highScore fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
+        
+        [label2 setColor:ccc3(255,255,255)];
+        //position the label on the center of the screen
+        label2.position= ccp(screenWidth/2, screenHeight/3);
+        
+        //add the label to the child layer
+        [self addChild:label2];
+        
         //Add the buttons to the screen
+        CCMenuItem *highScoresButton =
+        [CCMenuItemFont itemWithString:@"View High Scores" target:self selector:@selector(onHighScore:)];
+        
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Return to Main Menu" target:self selector:@selector(onBack:)];
         
-        CCMenu *highScoreMenu = [CCMenu menuWithItems:backButton, nil];
+        CCMenu *highScoreMenu = [CCMenu menuWithItems:highScoresButton,backButton, nil];
         [highScoreMenu alignItemsVertically];
         [highScoreMenu setPosition:ccp(screenWidth/2, screenHeight*0.25f)];
         
@@ -57,8 +73,11 @@
     return self;
 }
 
+- (void) onHighScore:(CCMenuItemFont *)button {
+    [[CCDirector sharedDirector] pushScene: [HighScoresScreen scene]];
+}
+
 - (void) onBack:(CCMenuItemFont*) button{
-    [[CCDirector sharedDirector] popScene];
     [[CCDirector sharedDirector] popScene];
     [[CCDirector sharedDirector] popScene];
 

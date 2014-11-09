@@ -7,7 +7,13 @@
 //
 
 #import "AudioScreen.h"
+#import "Options.h"
+#import "SimpleAudioEngine.h"
 
+// Theme songs
+//#define THEME_SONG @"Mindblogger.mp3"
+// "The River War Orginal Mix" by PANG! see http://www.beatport.com/track/the-river-war-original-mix/4225775
+#define THEME_SONG @"4225775_The_River_War_Original_Mix.mp3"
 
 @implementation AudioScreen
 +(CCScene *) scene
@@ -15,7 +21,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a audio screen and add it to the scene
     
     AudioScreen * layer = [AudioScreen node];
     [scene addChild:layer];
@@ -28,11 +34,11 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        //Display quit?
+        //Display Audio
         
-        NSString *quitText = @"Audio";
+        NSString *audioText = @"Audio";
         
-        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:quitText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
+        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:audioText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
         
         [label setColor:ccc3(0,255,0)];
         
@@ -59,7 +65,16 @@
     return self;
 }
 - (void) toggleAudio:(CCMenuItemFont*) button{
-    //nothing to be done... yet
+    if([Options soundsOn]) {
+        [Options enableSounds:FALSE];
+        
+        [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    }
+    else {
+        [Options enableSounds:TRUE];
+        
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
+    }
 }
 - (void) onBack:(CCMenuItemFont*) button{
     [[CCDirector sharedDirector] popScene];

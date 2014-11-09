@@ -7,6 +7,7 @@
 //
 
 #import "SkillLevelScreen.h"
+#import "Lives.h"
 
 
 @implementation SkillLevelScreen
@@ -15,7 +16,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a skill level screen and add it to the scene
     
     SkillLevelScreen * layer = [SkillLevelScreen node];
     [scene addChild:layer];
@@ -28,11 +29,11 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        //Display quit?
+        //Display skill level
         
-        NSString *quitText = @"Skill Level";
+        NSString *skillText = @"Skill Level";
         
-        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:quitText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
+        CCLabelTTF* label = (CCLabelTTF*)[CCLabelTTF labelWithString:skillText fontName:@"Marker Felt" fontSize:24 dimensions:CGSizeMake(400, 100) hAlignment:UITextAlignmentLeft];
         
         [label setColor:ccc3(0,255,0)];
         
@@ -66,16 +67,16 @@
     return self;
 }
 - (void) onBeginner:(CCMenuItemFont*) button{
-    //nothing...yet
+    [Lives setValue: 3];
 }
 
 
 - (void) onIntermediate:(CCMenuItemFont*) button{
-    //nothing...yet
+    [Lives setValue: 2];
 }
 
 - (void) onAdvanced:(CCMenuItemFont*) button{
-    //nothing...yet
+    [Lives setValue: 1];
 }
 
 - (void) onBack:(CCMenuItemFont*) button{

@@ -15,7 +15,7 @@
     //Get a scene
     CCScene * scene = [CCScene node];
     
-    //Construct a main screen and add it to the scene
+    //Construct a pause screen and add it to the scene
     
     PauseScreen * layer = [PauseScreen node];
     [scene addChild:layer];
@@ -28,7 +28,7 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        //Display quit?
+        //Display Paused
         
         NSString *pauseText = @"Paused";
         
