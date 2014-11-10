@@ -632,7 +632,6 @@
 				2F818F5E1A0876A600681612 /* FirePit.m */,
 			);
 			name = Entities;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		2F818F0B1A0864A900681612 /* Utils */ = {
@@ -654,6 +653,7 @@
 				2F818F031A0864A100681612 /* SoundEffects.m */,
 			);
 			name = Utils;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F818F0C1A0864E000681612 /* Joystick API */ = {
@@ -669,6 +669,7 @@
 				2F818F141A08650500681612 /* SneakyJoystickSkinnedBase.m */,
 			);
 			name = "Joystick API";
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F818F191A08654E00681612 /* Maps */ = {
@@ -681,6 +682,7 @@
 				2F9CE4F81A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx */,
 			);
 			name = Maps;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F818F201A08657B00681612 /* Images */ = {
@@ -698,6 +700,7 @@
 				2F818F281A0865D800681612 /* sky_160.png */,
 			);
 			name = Images;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F818F331A0865EC00681612 /* Audio */ = {
@@ -717,6 +720,7 @@
 				2F818F3E1A08665C00681612 /* yummy2.mp3 */,
 			);
 			name = Audio;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F818F4C1A0866A800681612 /* Generate */ = {
@@ -730,13 +734,24 @@
 				2F90674019E363DE000AA3AE /* IntroLayer.m */,
 			);
 			name = Generate;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F90658819E363DC000AA3AE = {
 			isa = PBXGroup;
 			children = (
+				2F818F4C1A0866A800681612 /* Generate */,
+				2F818F331A0865EC00681612 /* Audio */,
+				2F818F201A08657B00681612 /* Images */,
+				2F818F191A08654E00681612 /* Maps */,
+				2F818F0C1A0864E000681612 /* Joystick API */,
+				2F818F0B1A0864A900681612 /* Utils */,
+				2F818EE31A08633700681612 /* Entities */,
+				2F90674719E36615000AA3AE /* Screens */,
+				2F9065A919E363DC000AA3AE /* Resources */,
+				2F9065C119E363DC000AA3AE /* libs */,
+				2F90673519E363DE000AA3AE /* Supporting Files */,
 				2F90659319E363DC000AA3AE /* Frameworks */,
-				2F9065A819E363DC000AA3AE /* KittenKanoodler */,
 				2F90659219E363DC000AA3AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -766,24 +781,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F9065A819E363DC000AA3AE /* KittenKanoodler */ = {
-			isa = PBXGroup;
-			children = (
-				2F818F4C1A0866A800681612 /* Generate */,
-				2F818F331A0865EC00681612 /* Audio */,
-				2F818F201A08657B00681612 /* Images */,
-				2F818F191A08654E00681612 /* Maps */,
-				2F818F0C1A0864E000681612 /* Joystick API */,
-				2F818F0B1A0864A900681612 /* Utils */,
-				2F818EE31A08633700681612 /* Entities */,
-				2F90674719E36615000AA3AE /* Screens */,
-				2F9065A919E363DC000AA3AE /* Resources */,
-				2F9065C119E363DC000AA3AE /* libs */,
-				2F90673519E363DE000AA3AE /* Supporting Files */,
-			);
-			path = KittenKanoodler;
-			sourceTree = "<group>";
-		};
 		2F9065A919E363DC000AA3AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -801,6 +798,7 @@
 				2F9065BF19E363DC000AA3AE /* iTunesArtwork */,
 			);
 			name = Resources;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F9065C119E363DC000AA3AE /* libs */ = {
@@ -814,6 +812,7 @@
 				2F90670319E363DE000AA3AE /* kazmath */,
 			);
 			name = libs;
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F9065C219E363DC000AA3AE /* cocos2d */ = {
@@ -1163,6 +1162,7 @@
 				2F90673719E363DE000AA3AE /* main.m */,
 			);
 			name = "Supporting Files";
+			path = KittenKanoodler;
 			sourceTree = "<group>";
 		};
 		2F90674719E36615000AA3AE /* Screens */ = {
@@ -1208,7 +1208,6 @@
 				2F19E80119E5EFEF00687BD8 /* TestGameScreen.m */,
 			);
 			name = Screens;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Level1" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmluOwjAMRcNsAfgY+OD1w8AW2P+6KBJGUUjbaW8ednqPZCEkkpSDkzSmK0fmsnoHmQf9YdAfBv1h0B8G/U3jEbynvzjrLjZBuPfr1vsc/WH4/kLnL7axRuQD8w+D/jDoD4P+MOgPg/4w6A+D/jBK+5N7dOe+z0fh2cgCzD8M+sMY8herQZScYzK+5jltIf80e8zlL5a76PdfJ+gjNRbyz8f/XTS4tObPR8O8RvzlmKPINdTwaDn/QmrkY0v+hJIeW/QnlPDYsj8h5xq5BH9CDo9L8ueTam4v1Z8w5vEw0n7p/mL01U1inukPg/6cuwJtLfs7zmzX92zVnL3Esj8N0B9G6/5yn+Gm+NNQr+qjVi3wv/401CoFTddiYf7mOv8j9y2CVn+5cuy3i10Qe6A/Lf5K1eH/urgFcQf60+LPKqX81X6WIRfMPwz6w2jZX+q9NkYKf1rXtlMX5yAuicdoOf/oD4P+MGr7m/I/ikZq+7MO/WGU9PeTuN8x+mpHx4RjlPI3tM4xhuO1DzwBtbAbyA==
+  </data>
+ </layer>
+ <layer name="stalks" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENw1AQw1BPkTb7b+k2aSIFKswP8FVXErrrkiRJYno9HXC4f/dz72/ut3G/jftt3G/jfhv327jfxv02pP1O/I37bdxv434bUjOppUVqJrW0SM2klhapmdTSIjWTWlqkZlJLi9RMammRmkktLVIzqaVFaia1tEjNpJYWqZnU0iI1k1p+eX/cpGZSy4lo+9F6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6Elovrec07rdxv437bdxv434b99u438b9Nu63cb+N+23c7zk33yYISg==
+  </data>
+ </layer>
+ <layer name="enemies" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2TsSgyAQAFBvkjZNSsvc/1qZFGmcqAGZLAvvlTogP3cRlwUAgNk8G9e3Nq6vR63HDGplWIs9xYQM4wVAHj3luH9559IZ+w0j8P4CIyn9vi+Nf84P8tmbs/XgHnOKXA8lsci6jVezf/42b9trWffkI67Jszkesc9w1S26ATRxNb59Yqc4CQC/O8qbzq8AmF1NHmx9zioXM5p7dAMACBXxj9p+CtizjQ+PgjI1Zc+eTy4vwTAK4w==
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2kEOgyAQBVDWauv9b1tJMT1ACXz1vWTizkwQRxwoBQAgw3rEuwVj7Ecs7bpPzgUAAABG2cq3/+Cf+NqW2QlM8up8v6eOY0/1mZw1hf/0nt+jrbMTaK4+jimsDwCAp3N2A3LpQUC2pHe07oec/cu0b3vSOHE/5leGrfz2ZdNqECRL2W8CrqHWjHPdn0xtA+5KfQOAfj4BXwH/
+  </data>
+ </layer>
+</map>

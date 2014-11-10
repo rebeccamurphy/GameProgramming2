@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Kitten Kanoodler" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2kFOwzAQRuGEM3RDWTW9Bvc/F6rSSAE5ODO/60ym70mzQCDF+jCtsToO5G18DvnCTyu737XB97fmUTa/Fl6Wsvn1Dj8t/LTw08JPCz8t/LTw08JPCz+tnn7//S/Zcno+M9v+mypftw4/Lfy08NPCTws/Lfy08NPq6XcxjqfMfj3CT2sqzCvL5udJeT3BTws/Lfy08NNq6bd1h5k5r1/pLnZ9ZqjdC2fJ61c6Z9UmY7z+aeGnhZ8Wflr4aeGnFdlvHH6vL+IZMopf6Yz912/9s1GK4ldqyy9SkddX84uwD8/sF6HI69vrd+Q+PNKvdi/D/tOy+i2/i89B/1zkl3GNEfPuv9vgu19bz924xoipft7O6Gc5P9d6R79Sqt+387n4zQbL+4i1s/i96vzC3+8cfvvj/aN9R/lZWtb30el5ls7kZ/1sLTPPw+4HldYf/A==
+  </data>
+ </layer>
+ <layer name="enemies" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt27ENgCAQAEAmcBNLS/dfS0tjBNGABrhLaGjehEeeACEA/GPd2xLpBwCgPTl13LH+U/dBeU/n1VwgRq2Y/hEAAABlvNn7AQBjm/7+AAAAAKCqGnezrt4HfRkfvpTK4buzOfkPAG05r925da81vz+pMY3lhTxgdOc5UOIdG/3aANnPBkM=
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2sENgDAMA8B+AQH7b8sSKanVuwEsv/KJxwBWdncX+MnbXQAAgHJXdwEglvsBAMAq/C+AKu4JAEme7gIAAETaZfdewS4CAABI5fcNAHs7JmSeEzLJ8wEUYQCZ
+  </data>
+ </layer>
+ <layer name="stalks" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0cENAlEMxNCtgv5L5Z5LJCx2/cGvgYyc60ru93p6wOHqx9SPqR9TP6Z+TP2Y+jH1Y+rH1I+5s98v/qp+TP3OUT+mfkz9mPox9WPqx9SPqR9j7WfdNVl3WndN1p3WXZN1p3XXZN1p3TVZd1p3TdadT+z65Gb92M36PXvzW+rH1I+pH1M/pn5M/Zj6MfVj6sfUj6kfUz+mfkz9mPqdp35M/ZjT+tn22vZsbHtteza2vbY9G9te256Nba9tz8a217ZnY9tr27M5be+/eQMqwwgV
+  </data>
+ </layer>
+</map>

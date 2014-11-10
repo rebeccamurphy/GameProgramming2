@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Level 0" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2FGqgzAQRuG2a/Cpj11H97+uy3AbsBIl5k9sJnMOzEvJg3yMor3fqLb7Z6gu/LTw08JPCz8t/LTw08JPCz8t/LTw08JPC7/zLavBTwu/8pbMb/hp4aeF33G5e3Ydflr4aeH33frdriT8tPDTwu+/0vt1G35a0f1q9y4V3U8tqp+6d6mofq2K5tdq71KR/FrbWVH8ethZEfx62Vmz+/W0s2b2621nzep3hZ01o99VdtZsflfaWd79ltv5/4xb5s3vV057efMbLfy08NPy6jfKc9Cr3yh58xtl71Le/EbLi99oe5fy4jdqvfy231W5/dk78+tvsjOxf1ot/TzsS+vYP61aP0/PqNqemdnG/u33Kjhz5Bdhx45S/aJ3xu/R+Vo8tvV7Z86YXel7LJOfPyEwDIc=
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2zsKwCAQQEHbfCX3v2wOkEbBuJswUy/4KlHQUgAAAACeanQAAADDbNEBAAAMs0YHAACQ2hUdQHp7dAAAAMDPLJ3z7mVAZr17GvTynhW+ofVf4dkwM+v8e0xah3fcpnQAoQ==
+  </data>
+ </layer>
+</map>
