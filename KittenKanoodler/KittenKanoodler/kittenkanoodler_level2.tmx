@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmluOwjAMRcNsAfgY+OD1w8AW2P+6KBJGUUjbaW8ednqPZCEkkpSDkzSmK0fmsnoHmQf9YdAfBv1h0B8G/U3jEbynvzjrLjZBuPfr1vsc/WH4/kLnL7axRuQD8w+D/jDoD4P+MOgPg/4w6A+D/jBK+5N7dOe+z0fh2cgCzD8M+sMY8herQZScYzK+5jltIf80e8zlL5a76PdfJ+gjNRbyz8f/XTS4tObPR8O8RvzlmKPINdTwaDn/QmrkY0v+hJIeW/QnlPDYsj8h5xq5BH9CDo9L8ueTam4v1Z8w5vEw0n7p/mL01U1inukPg/6cuwJtLfs7zmzX92zVnL3Esj8N0B9G6/5yn+Gm+NNQr+qjVi3wv/401CoFTddiYf7mOv8j9y2CVn+5cuy3i10Qe6A/Lf5K1eH/urgFcQf60+LPKqX81X6WIRfMPwz6w2jZX+q9NkYKf1rXtlMX5yAuicdoOf/oD4P+MGr7m/I/ikZq+7MO/WGU9PeTuN8x+mpHx4RjlPI3tM4xhuO1DzwBtbAbyA==
+   eJztmlsOwiAQRalbqP1Qv9QvdQvuf13SpBiClNheHgPck9wYE6X1OEMFOyiyl2EJ2Qf9YdAfBv1h0B8G/W3j7TynPz+jztGJWh4n63X0h2H7c53PTL43kS+sPwz6w6A/DPrDoD8M+sOgPwz6w8jtz/xGV+p3feSujWqA9YdBfxghf749iJw9Zo4vuadrqD/JHlP589Uu+vnHCGPEpob6s7G/Fwkua/NnI6GvEX8pehQ5hxIea64/lxL12JI/Q06PLfoz5PDYsj9DyjmyB3+GFB578mcTq7d79WdAPfbuz8favonPM/1h0B9Gj/7W7q3aMwf26C8m9IfRur/Ua7gt/iTsV61Rai/wX38S9ioNks6lhv4tvUcaQqq/VDV20jk7uQDjSfGXq8YeOk8nL2A8Kf5qJZe/0vcypIL1h0F/GC37i32t9RHDn9S57apzc3KPfIyW64/+MOgPo7S/Lf+jSKS0v9qhP4yc/g6Rx5VALn+heY4JZ74OfAD8RBrx
   </data>
  </layer>
  <layer name="stalks" width="80" height="60">
@@ -15,7 +15,7 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2TsSgyAQAFBvkjZNSsvc/1qZFGmcqAGZLAvvlTogP3cRlwUAgNk8G9e3Nq6vR63HDGplWIs9xYQM4wVAHj3luH9559IZ+w0j8P4CIyn9vi+Nf84P8tmbs/XgHnOKXA8lsci6jVezf/42b9trWffkI67Jszkesc9w1S26ATRxNb59Yqc4CQC/O8qbzq8AmF1NHmx9zioXM5p7dAMACBXxj9p+CtizjQ+PgjI1Zc+eTy4vwTAK4w==
+   eJzt2TESgyAQAEB/kjZNSsv8/1sZizRO1ECYHAe7pQ6IgHeAywIAwGyejetbG9fXo9Z9BrUyzMWeYkKG/gIgj55y3L9suXTG94YR+H6BkZTu70vjn/ODfI7GbD25x5wi50NJLDJv49Wsnz+N2/5a1jV55jl51nZrBChzi24ATfway96xU0wEgO9d7UvkVQBmVpMHW5+zysWM5h7dAABCRfyjtp4Cjuzjw6OgTE3Zq+eTywvCJArj
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">

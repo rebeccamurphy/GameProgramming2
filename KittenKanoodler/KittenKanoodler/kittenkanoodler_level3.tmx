@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2kFOwzAQRuGEM3RDWTW9Bvc/F6rSSAE5ODO/60ym70mzQCDF+jCtsToO5G18DvnCTyu737XB97fmUTa/Fl6Wsvn1Dj8t/LTw08JPCz8t/LTw08JPCz+tnn7//S/Zcno+M9v+mypftw4/Lfy08NPCTws/Lfy08NPq6XcxjqfMfj3CT2sqzCvL5udJeT3BTws/Lfy08NNq6bd1h5k5r1/pLnZ9ZqjdC2fJ61c6Z9UmY7z+aeGnhZ8Wflr4aeGnFdlvHH6vL+IZMopf6Yz912/9s1GK4ldqyy9SkddX84uwD8/sF6HI69vrd+Q+PNKvdi/D/tOy+i2/i89B/1zkl3GNEfPuv9vgu19bz924xoipft7O6Gc5P9d6R79Sqt+387n4zQbL+4i1s/i96vzC3+8cfvvj/aN9R/lZWtb30el5ls7kZ/1sLTPPw+4HldYf/A==
+   eJzt20FOwzAQRuGUM8CisKKsgCtw/3PRqCBZyNPY/h3HM7wnzaLyItWnQNwoOS3U2ulnqC38tKL7PV/nxVg7F65bsxbJL+fxcZ1PY/29cN2atUh+fz16r+eK5HdE+Gnhp4WfFn5a+Gnhp4WfFn5aI/3u/ZbsOSOPGe38u2x87h1+Wvhp4aeFnxZ+Wvhp4ac10u+xcp4ajhHZb0T4aV0ys2fR/FpS/p/gp4WfFn5a+Gn19LPuYUau1S93LzbdM+TWreecPNfql9tnbc1bh+87W61+957rsqbmuSYvcf3Qwk8LPy38tPDTmtnPwx5yBr/0PYHUx9pDnpd5HGfwsxp1D1TJq9/Wuy+j8uo3S979jj4Pj/KzrhlpnH9aNX7pebj13l/JlJ7PUfzSXhf7Hlrve22R/ZTjevIr2T/X9N/8rFS/L+G4+LX/zvPgt+f+hb/fW/iVxfVjn47yq+nX72HQ8Wry5Ff7bC1zm9XuG7UbMIY=
   </data>
  </layer>
  <layer name="enemies" width="80" height="60">
