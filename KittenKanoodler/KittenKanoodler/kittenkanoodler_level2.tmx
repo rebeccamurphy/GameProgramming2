@@ -15,7 +15,7 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2TESgyAQAEB/kjZNSsv8/1sZizRO1ECYHAe7pQ6IgHeAywIAwGyejetbG9fXo9Z9BrUyzMWeYkKG/gIgj55y3L9suXTG94YR+H6BkZTu70vjn/ODfI7GbD25x5wi50NJLDJv49Wsnz+N2/5a1jV55jl51nZrBChzi24ATfway96xU0wEgO9d7UvkVQBmVpMHW5+zysWM5h7dAABCRfyjtp4Cjuzjw6OgTE3Zq+eTywvCJArj
+   eJzt2TESwiAQAMD8xNbGzpT+/1uOhU1Gk4CMx8FumQyEALkDsiwAAMzm0bi+tXF9PWrdZ1Arw1zsKSZk6C8A8ugpx/3LK5fO+N4wAt8vMJLS/X1p/HN+kM+3MVt37jGnyPlQEovM23g16+dP47a9lnVNnnlO7rXdGgHKXKIbQBO/xrJ37BQTAeC8o32JvArAzGryYOtzVrmY0VyjGwBAqIh/1NZTMId7RZltfLgVlKkpe/R8cnkCQcMLFw==
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">

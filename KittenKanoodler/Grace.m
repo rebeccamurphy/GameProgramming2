@@ -299,4 +299,9 @@
     
     self.frameNumber = FACING_RIGHT;
 }
+
+- (CGPoint) getInitPos {
+    return initPosition;
+}
+
 @end

@@ -10,10 +10,14 @@
 #import "cocos2d.h"
 #import "Enemy.h"
 
-@interface FirePit : Enemy
-    
+@interface FirePit : Enemy{
+    bool firstTime;
+}
 
+/** Constructor */
+- (id) initAt:(CGPoint) here of:(AbstractLevel*) level_;
 
-- (FirePit*) initAtX:(int) x AndY:(int) y;
+/* Update changes frames */
+-(void) update;
 
 @end

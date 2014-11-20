@@ -92,6 +92,14 @@
                 
                 [enemies addObject:flya];
             }
+            
+            else if(gid == RID_FIREPIT) {
+                FirePit* fiyaPit = (FirePit*) [[FirePit alloc] initAt:here of:self];
+                
+                [self addChild:fiyaPit z:90];
+                
+                [enemies addObject:fiyaPit];
+            }
         }
     }
 }
@@ -142,21 +150,21 @@
 }
 
 - (void) caughtReset {
-	// Unfreeze everybody only if there are more lives
-	if([Lives remaining] == 0) {
-		[Helper goOver];
-		
-		return;
-	}
+    // Unfreeze everybody only if there are more lives
+    if([Lives remaining] == 0) {
+        [Helper goOver];
+        
+        return;
+    }
     
-//	[self unschedule:@selector(caughtReset)];
+    // [self unschedule:@selector(caughtReset)];
     
-	// Reset grace to its initial position and not moving
+    // Reset grace to its initial position and not moving
     [grace reset];
-    
+    [self setPosition: [grace getInitPos]];
     [feedback setVisible:FALSE];
     
-	caught = FALSE;
+    caught = FALSE;
 }
 
 - (bool) collidesWith: (id) enemy_ {

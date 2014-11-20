@@ -82,9 +82,14 @@ static GameController* gameController = nil;
     // reset, we need to wait until it goes back to zero
     // i.e., it is "ready", before reporting more output.
     bool gotInput = avx != 0 || avy != 0;
+    bool gotXInput = avx != 0;
     
     if(ready && gotInput) {
         ready = FALSE;
+    }
+    
+    else if(!ready && gotXInput) {
+        ready = TRUE;
     }
     
     else if(!ready && !gotInput) {
