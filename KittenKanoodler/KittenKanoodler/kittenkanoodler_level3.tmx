@@ -10,7 +10,7 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt27ENgCAQAEAmcBNLS/dfS0tjBNGABrhLaGjehEeeACEA/GPd2xLpBwCgPTl13LH+U/dBeU/n1VwgRq2Y/hEAAABlvNn7AQBjm/7+AAAAAKCqGnezrt4HfRkfvpTK4buzOfkPAG05r925da81vz+pMY3lhTxgdOc5UOIdG/3aANnPBkM=
+   eJzt20EKgCAQAMBe0E86duz/36pjSGmaIdoMdAnKIHXXtaYJoI3tONab8wAA9OdJHnfO/+R9UF/uuFoqtPFVm+YIgHKxOfSqHpdzPQD15K6jS+8BJWs/+vE293vbBgBjmls/AACQZC+A1Dv0jTYAMV/EhJyatJhE72J9OLU3p/8DQF/C2P007xXzx1NSk9UP+LtwDNT4j41x7eOaCa4=
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">

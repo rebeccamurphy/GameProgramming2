@@ -207,9 +207,18 @@
 			
 			return FALSE;
 		}
-		
-        // Otherwise, grace is caught       
-		return caught = TRUE;        
+        else if([grace isWeaponized]) {
+            enemy.state = STATE_DYING;
+            
+            [Score increment:REWARD_CRUSH_MONSTA];
+            
+            [SoundEffects yeah];
+            
+            return FALSE;
+        }
+        
+        // Otherwise, grace is caught
+        return caught = TRUE;
     }
         
     return FALSE;

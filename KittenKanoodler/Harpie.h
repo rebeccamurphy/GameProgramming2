@@ -9,7 +9,9 @@
 #import "Enemy.h"
 
 /** Harpie enemy */
-@interface Harpie : Enemy
+@interface Harpie : Enemy {
+    bool firstTime;
+}
 
 /** Comstructor */
 - (id) initAt:(CGPoint) here of:(AbstractLevel*) level_;

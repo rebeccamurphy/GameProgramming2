@@ -25,6 +25,7 @@
     double vy;
     CGPoint initPosition;
     bool climbing;
+    bool weaponized;
 }
 
 @property(nonatomic) enum direction input;
@@ -67,6 +68,12 @@
 
 /** Resets Grace */
 - (void) reset;
+
+/** Grace has a weapon, watch out */
+- (void) weaponize;
+
+/** Returns if Grace has a weapon or not */
+- (bool) isWeaponized;
 
 /** Gets Grace's initPosition */
 - (CGPoint) getInitPos;

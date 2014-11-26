@@ -286,7 +286,7 @@
 	// NOTE: this method assumes Grace is already colliding
 	// with enemy
 	
-	if([self onPlatform] || self.y < enemy.y)
+	if(([self onPlatform] && !weaponized) || (self.y < enemy.y && !weaponized))
 		return FALSE;
 	
 	return TRUE;
@@ -298,6 +298,14 @@
     vx = vy = 0;
     
     self.frameNumber = FACING_RIGHT;
+}
+
+- (void) weaponize {
+    weaponized = true;
+}
+
+- (bool) isWeaponized {
+    return weaponized;
 }
 
 - (CGPoint) getInitPos {

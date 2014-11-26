@@ -65,13 +65,15 @@
     return self;
 }
 - (void) toggleAudio:(CCMenuItemFont*) button{
-    if([Options soundsOn]) {
+    if([Options soundsOn] || [Options musicOn]) {
         [Options enableSounds:FALSE];
+        [Options enableMusic:FALSE];
         
         [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
     }
     else {
         [Options enableSounds:TRUE];
+        [Options enableMusic:TRUE];
         
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
     }

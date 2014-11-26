@@ -16,9 +16,11 @@
 @implementation Harpie
 - (id) initAt:(CGPoint) here of:(AbstractLevel*) level_ {
     [super initWithFrames: @"harpie.png" width:32 andHeight:32];
-    
+
 	state = STATE_ALIVE;
 	
+    firstTime = TRUE;
+    
 	xSpeed = SPEED_FLYA * [self toss];
 	
 	ySpeed = 0;
@@ -43,4 +45,29 @@
 	else 
 		self.frameNumber = FACING_LEFT;
 }
+
+- (void) update {
+    if(state == STATE_DEAD)
+        return;
+    
+    if(state == STATE_ALIVE)
+        [super update];
+    
+    else if(state == STATE_DYING && firstTime) {
+        
+        firstTime = false;
+        
+        [self schedule:@selector(kill) interval:0.5f];
+    }
+}
+
+- (void) kill {
+    [self unschedule:@selector(kill)];
+    
+    state = STATE_DEAD;
+    
+    [level removeChild:self cleanup:true];
+}
+
+
 @end

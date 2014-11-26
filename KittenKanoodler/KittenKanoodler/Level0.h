@@ -30,6 +30,7 @@
     bool caught;
 	bool complete;
 	int mushRoomCount;
+    int weaponCount;
     NSMutableArray* rungs;
 	Goal* goal;
 	Grace* grace;
@@ -67,6 +68,9 @@
 /** Handles PC-goal collisions */
 - (void) handlePCGoalCollision;
 
+/** Handles PC-weapon collisions */
+- (void) handlePCWeaponCollision;
+
 /** Returns true if the GID is a mushroom */
 - (bool) isMushroom:(int) gid;
 
@@ -75,6 +79,9 @@
 
 /** Returns true if the GID is a big mushroom */
 - (bool) isBigMushroom:(int) gid;
+
+/** Returns true if the GID is a weapon */
+- (bool) isWeapon:(int) gid;
 
 /** Returns true if the GID is a ladda type */
 - (bool) isLadda:(int) gid;

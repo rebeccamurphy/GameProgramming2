@@ -202,6 +202,7 @@
 		2F9CE4FA1A0C3DD400CBC2B4 /* kittenkanoodler_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4F61A0C3DD400CBC2B4 /* kittenkanoodler_level1.tmx */; };
 		2F9CE4FC1A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4F81A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx */; };
 		2FB641BE1A0D451300157819 /* Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB641BD1A0D451300157819 /* Splash.m */; };
+		2FB7B6D21A2679F50094C28D /* swagsheettrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB7B6D11A2679F50094C28D /* swagsheettrans.png */; };
 		2FBB30EE1A0F26160091BF88 /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB30ED1A0F26160091BF88 /* Level2.m */; };
 		2FBB30F11A0F27180091BF88 /* Level3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB30F01A0F27180091BF88 /* Level3.m */; };
 		2FBB30F31A0F2D850091BF88 /* kittenkanoodler_level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB30F21A0F2D850091BF88 /* kittenkanoodler_level2.tmx */; };
@@ -585,6 +586,7 @@
 		2F9CE4F81A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kittenkanoodler_level3.tmx; sourceTree = "<group>"; };
 		2FB641BC1A0D451300157819 /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Splash.h; sourceTree = "<group>"; };
 		2FB641BD1A0D451300157819 /* Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Splash.m; sourceTree = "<group>"; };
+		2FB7B6D11A2679F50094C28D /* swagsheettrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swagsheettrans.png; sourceTree = "<group>"; };
 		2FBB30EC1A0F26160091BF88 /* Level2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2.h; sourceTree = "<group>"; };
 		2FBB30ED1A0F26160091BF88 /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level2.m; sourceTree = "<group>"; };
 		2FBB30EF1A0F27180091BF88 /* Level3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level3.h; sourceTree = "<group>"; };
@@ -622,10 +624,10 @@
 				2F818ED41A08632F00681612 /* Entity.m */,
 				2F818ED51A08632F00681612 /* Goal.h */,
 				2F818ED61A08633000681612 /* Goal.m */,
-				2F818ED71A08633000681612 /* Gorgon.h */,
-				2F818ED81A08633000681612 /* Gorgon.m */,
 				2F818ED91A08633000681612 /* Grace.h */,
 				2F818EDA1A08633000681612 /* Grace.m */,
+				2F818ED71A08633000681612 /* Gorgon.h */,
+				2F818ED81A08633000681612 /* Gorgon.m */,
 				2F818EDB1A08633000681612 /* Harpie.h */,
 				2F818EDC1A08633000681612 /* Harpie.m */,
 				2F818F5D1A0876A600681612 /* FirePit.h */,
@@ -688,6 +690,7 @@
 		2F818F201A08657B00681612 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2FB7B6D11A2679F50094C28D /* swagsheettrans.png */,
 				2F9CE4BB1A0C1EAE00CBC2B4 /* tiles_mga.png */,
 				2F818F5B1A0875A500681612 /* firepit-3-32x62.png */,
 				2F818F211A0865D800681612 /* dpadDown3.png */,
@@ -1274,6 +1277,7 @@
 				2F818F401A08665C00681612 /* blip2.mp3 in Resources */,
 				2F818F441A08665C00681612 /* shazam2.mp3 in Resources */,
 				2F9065BB19E363DC000AA3AE /* Icon.png in Resources */,
+				2FB7B6D21A2679F50094C28D /* swagsheettrans.png in Resources */,
 				2F818F5C1A0875A500681612 /* firepit-3-32x62.png in Resources */,
 				2F90671919E363DE000AA3AE /* ChangeLog in Resources */,
 				2F818F421A08665C00681612 /* cheer2.mp3 in Resources */,

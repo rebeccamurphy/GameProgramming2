@@ -21,7 +21,7 @@
 + (void) enableSounds: (bool) toggle;
 
 /** Toggles music */
-+ (void) enableMusic:(bool)toggle;
++ (void) enableMusic: (bool) toggle;
 
 /** Loads persistent defaults */
 + (void) loadDefaults;

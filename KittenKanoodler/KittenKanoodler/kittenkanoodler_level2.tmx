@@ -5,12 +5,12 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmlsOwiAQRalbqP1Qv9QvdQvuf13SpBiClNheHgPck9wYE6X1OEMFOyiyl2EJ2Qf9YdAfBv1h0B8G/W3j7TynPz+jztGJWh4n63X0h2H7c53PTL43kS+sPwz6w6A/DPrDoD8M+sOgPwz6w8jtz/xGV+p3feSujWqA9YdBfxghf749iJw9Zo4vuadrqD/JHlP589Uu+vnHCGPEpob6s7G/Fwkua/NnI6GvEX8pehQ5hxIea64/lxL12JI/Q06PLfoz5PDYsj9DyjmyB3+GFB578mcTq7d79WdAPfbuz8favonPM/1h0B9Gj/7W7q3aMwf26C8m9IfRur/Ua7gt/iTsV61Rai/wX38S9ioNks6lhv4tvUcaQqq/VDV20jk7uQDjSfGXq8YeOk8nL2A8Kf5qJZe/0vcypIL1h0F/GC37i32t9RHDn9S57apzc3KPfIyW64/+MOgPo7S/Lf+jSKS0v9qhP4yc/g6Rx5VALn+heY4JZ74OfAD8RBrx
+   eJztmksOwiAURalbqB2oI3WkbsH9r0uaFEOQEtvL5wH3JDc6UFqP71HBDorsZVhC9kF/GPSHQX8Y9IdBf9t5W8/pz8+oc3SilsfJeh39Ydj+XOczk+9N5AvrD4P+MOgPg/4w6A+D/jDoD4P+MHL7M7/RlfpdH7lroxpg/WHQH0bIn28PImePmeNL7uka6k+yx1T+fLWLfv4xwhixqaH+bOzvRYLL2vzZSOhrxF+KHkXOoYTHmuvPpUQ9tuTPkNNji/4MOTy27M+Qco7swZ8hhcee/NnE6u1e/RlQj73787G2b+LzTH8Y9IfRo7+1e6v2zIE9+osJ/WG07i/1Gm6LPwn7VWuU2gv815+EvUqDpHOpoX9L75GGkOovVY2ddM5OLsB4UvzlqrGHztPJCxhPir9ayeWv9L0MqWD9YdAfRsv+Yl9rfcTwJ3Vuu+rcnNwjH6Pl+qM/DPrDKO1vy/8oEintr3boDyOnv0PkcSWQy19onmPCma8DH/tUGvE=
   </data>
  </layer>
  <layer name="stalks" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt0bENw1AQw1BPkTb7b+k2aSIFKswP8FVXErrrkiRJYno9HXC4f/dz72/ut3G/jftt3G/jfhv327jfxv02pP1O/I37bdxv434bUjOppUVqJrW0SM2klhapmdTSIjWTWlqkZlJLi9RMammRmkktLVIzqaVFaia1tEjNpJYWqZnU0iI1k1p+eX/cpGZSy4lo+9F6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6ElovrSeh9dJ6Elovrec07rdxv437bdxv434b99u438b9Nu63cb+N+23c7zk33yYISg==
+   eJzt0bENgEAAw0CmYP9RqakSlAK/5JvASq5LkiSJ6f474HBf93PvN/fbuN/G/Tbut3G/jftt3G/jfhvSfid+434b99u434bUTGppkZpJLS1SM6mlRWomtbRIzaSWFqmZ1NIiNZNaWqRmUkuL1ExqaZGaSS0tUjOppUVqJrW0SM2klhapmdRyItp+tJ6E1kvrSWi9tJ6E1kvrSWi9tJ6E1kvrSWi9tJ6E1kvrSWi9tJ6E1kvrSWi9tJ6E1kvrOY37bdxv434b99u438b9Nu63cb+N+23cb+N+G/f7zwPrDggr
   </data>
  </layer>
  <layer name="enemies" width="80" height="60">
@@ -20,7 +20,7 @@
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2kEOgyAQBVDWauv9b1tJMT1ACXz1vWTizkwQRxwoBQAgw3rEuwVj7Ecs7bpPzgUAAABG2cq3/+Cf+NqW2QlM8up8v6eOY0/1mZw1hf/0nt+jrbMTaK4+jimsDwCAp3N2A3LpQUC2pHe07oec/cu0b3vSOHE/5leGrfz2ZdNqECRL2W8CrqHWjHPdn0xtA+5KfQOAfj4BXwH/
+   eJzt2kEOgyAQBVDWauslev8zVlNMuy+Rj76XTHRlyIgjMpYCAJBh3uJZg3OsW0z1uHYeCwAAAJxlKZ/9B9/EY5t6D6CTR+Pr3TWPLe335Kgp/Kf1/D7b3HsA1eh5TGF9AADcnX83IJc9CMiW9Izu/ZBj/zLt3Z6UJ67H/MqwlG9fNq0GQbKUfhMwhr1mHOv+ZGobcCWvn3P1DQDaeQMLfgIj
   </data>
  </layer>
 </map>

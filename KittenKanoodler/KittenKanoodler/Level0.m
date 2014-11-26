@@ -16,9 +16,10 @@
 
 #define REWARD_MUSHROOM_LIL 5
 #define REWARD_MUSHROOM_BIG 10
+#define RID_WEAPON 36
 
-int RID_MUSHROOMS_SMALL[] = { 9, 10, 11, 12, 13, 14, 15 };
-int RID_MUSHROOMS_BIG[] = { 56, 62, 63 };
+int RID_MUSHROOMS_SMALL[] = { 9, 10, 11, 12 };
+int RID_MUSHROOMS_BIG[] = { 13, 14, 15 };
 int RID_PLATFORMS[] = { 1, 19, 20, 21, 25, 26, 27, 34 };
 int RID_LADDAS[] = { 14, 22, 30, 38, 46, 54 };
 
@@ -165,8 +166,19 @@ int RID_LADDAS[] = { 14, 22, 30, 38, 46, 54 };
 		
         [SoundEffects big];
 	}
+    else if([self isWeapon:gid]) {
+        weaponCount--;
+        
+        [self handlePCWeaponCollision];
+        
+        [SoundEffects yeah];
+    }
 	
 	[rewardsLayer removeTileAt:contact];
+}
+
+- (void) handlePCWeaponCollision {
+    [grace weaponize];
 }
 
 - (void) handlePCGoalCollision {   
@@ -279,6 +291,14 @@ int RID_LADDAS[] = { 14, 22, 30, 38, 46, 54 };
 			return true;
 	
 	return false;
+}
+
+- (bool) isWeapon:(int) gid {
+    if(gid == RID_WEAPON)
+        return true;
+    
+    else
+        return false;
 }
 
 - (bool) isLadda:(int) gid {
