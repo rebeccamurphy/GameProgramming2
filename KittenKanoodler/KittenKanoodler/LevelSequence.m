@@ -43,4 +43,9 @@ static int levelno = 0;
 	return [levels count];
 }
 
++ (void) resetLevels {
+    levelno = 0;
+}
+
+
 @end

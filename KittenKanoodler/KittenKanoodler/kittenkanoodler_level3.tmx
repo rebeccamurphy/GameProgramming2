@@ -10,12 +10,12 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt20EKgCAQAMBe0E86duz/36pjSGmaIdoMdAnKIHXXtaYJoI3tONab8wAA9OdJHnfO/+R9UF/uuFoqtPFVm+YIgHKxOfSqHpdzPQD15K6jS+8BJWs/+vE293vbBgBjmls/AACQZC+A1Dv0jTYAMV/EhJyatJhE72J9OLU3p/8DQF/C2P007xXzx1NSk9UP+LtwDNT4j41x7eOaCa4=
+   eJzt20sOgyAUBVBX0J04a4fd/7aazgwp6ENQi+cM/WHiQ66o0wTQ17uw7hXcHgCA69qS45b5T+6D9nL96plZPjdoo9SXf7W7tU33CIB60fm4yP4AI8vl5l6iz9G1x+DevnU9T8fXN8fZm/32tgHAGNKs8DjlLACACO8CWLuGvtEGoKTHmBCZkzYm8e9KNbz2jaT6hzjvu4EzpWP31txrzB9PzZysOuCOltkt7QMt/mOrJVNe3wf/BguC
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2sENgDAMA8B+AQH7b8sSKanVuwEsv/KJxwBWdncX+MnbXQAAgHJXdwEglvsBAMAq/C+AKu4JAEme7gIAAETaZfdewS4CAABI5fcNAHs7JmSeEzLJ8wEUYQCZ
+   eJzt2rERgDAMBEGnwABN0H+NNGEjP94tQHOREqk1YGZndcBHnuoAAAC6O6oDgFj2BwAAs7irA4DfsE8ASHJVBwAAEGmVv/ce/EUAAACp3L4BYG3bgJn7gJnkeQHcMACu
   </data>
  </layer>
  <layer name="stalks" width="80" height="60">

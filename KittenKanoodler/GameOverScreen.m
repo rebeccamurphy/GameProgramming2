@@ -11,6 +11,7 @@
 #import "HighScoreScreen.h"
 #import "Score.h"
 #import "Lives.h"
+#import "LevelSequence.h"
 
 
 @implementation GameOverScreen
@@ -63,6 +64,10 @@
         
         //Deal with high scores
         [Score setHighScores];
+        
+        [Score increment:(0-[Score score])];
+        
+        [LevelSequence resetLevels];
         
     }
     return self;

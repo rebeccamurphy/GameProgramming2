@@ -15,12 +15,12 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2TESwiAQAMD8xNbGzpT+/1uOhU1Gk4CMx8FumQyEALkDsiwAAMzm0bi+tXF9PWrdZ1Arw1zsKSZk6C8A8ugpx/3LK5fO+N4wAt8vMJLS/X1p/HN+kM+3MVt37jGnyPlQEovM23g16+dP47a9lnVNnnlO7rXdGgHKXKIbQBO/xrJ37BQTAeC8o32JvArAzGryYOtzVrmY0VyjGwBAqIh/1NZTMId7RZltfLgVlKkpe/R8cnkCQcMLFw==
+   eJzt2UsOgjAQAFBu4taNO1l6/2sZE00MkU9rdTrw3oYEUmhomZmWYQAA4Ghuje83Nr5fj1q/M6iVYS72FBMyvC8A8ojIcdeAZ7575NKecjuwne8X2JPS9X1p/PvF/kF0Hbd3c2M2LlzjmCLnQ0ksMm/j1dTPn8Ztei5rTZ55Ti71vYcaATI5PY9q29y+jWWv2CkmAsB2a+sSeZXeqPmBf6rJg633WeVi9uYc3QGAA+ppHRXxj1o9BcyZxodLQZuatmvPJ5c7urQL5w==
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2kEOgyAQBVDWauslev8zVlNMuy+Rj76XTHRlyIgjMpYCAJBh3uJZg3OsW0z1uHYeCwAAAJxlKZ/9B9/EY5t6D6CTR+Pr3TWPLe335Kgp/Kf1/D7b3HsA1eh5TGF9AADcnX83IJc9CMiW9Izu/ZBj/zLt3Z6UJ67H/MqwlG9fNq0GQbKUfhMwhr1mHOv+ZGobcCWvn3P1DQDaeQMLfgIj
+   eJzt2kEOgyAQBVDWauv9b1tJMT1ACXz1vWTizkwQRxwoBQAgw3rEuwVj7Ecs7bpPzgUAAABG2cq3/+Cf+NqW2QlM8up8v6eOY0/1mZw1hf/0nt+jrbMTaK4+jimsDwCAp3N2A3LpQUC2pHe07oec/cu0b3vSOHE/5leGrfz2ZdNqECRL2W8CrqHWjHPdn0xtA+5KfQOAfj4BXwH/
   </data>
  </layer>
 </map>

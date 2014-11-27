@@ -57,7 +57,7 @@
         
         firstTime = false;
         
-        [self schedule:@selector(kill) interval:0.5f];
+        [self schedule:@selector(kill) interval:0.0f];
     }
 }
 

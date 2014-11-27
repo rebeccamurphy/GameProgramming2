@@ -19,4 +19,7 @@
 
 /** Gets the number of levels */
 + (int) numberOfLevels;
+
+/** Resets level back to level 0 */
++ (void) resetLevels;
 @end
