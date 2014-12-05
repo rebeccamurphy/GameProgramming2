@@ -34,17 +34,17 @@
         
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        CCSprite* logo = [CCSprite spriteWithFile: @"grace-large.png"];
+        CCSprite* logo = [CCSprite spriteWithFile: @"kitten.jpg"];
         
         [logo setPosition:ccp(screenWidth/2,screenHeight*0.65)];
         
         [self addChild: logo];
         
-        CCMenuItem *goButton = [CCMenuItemFont itemWithString:@"Go" target:self selector:@selector(onGo:)];
+        CCMenuItem *goButton = [CCMenuItemFont itemWithString:@"Kitten Kanoodler" target:self selector:@selector(onGo:)];
         
         CCMenu *menu = [CCMenu menuWithItems:goButton, nil];
         
-        [menu setPosition:ccp(screenWidth/2,screenHeight*0.40)];
+        [menu setPosition:ccp(screenWidth/2,screenHeight*0.30)];
         
         [self addChild: menu];
         

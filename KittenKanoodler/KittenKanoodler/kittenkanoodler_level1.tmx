@@ -20,7 +20,7 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2zEKwCAMBVAv5NjR+1+ruNa2RASr5b1FcFGyBD5JSgAA8C5//YEfKjd3x4Q3AIA5on1Y/wcAAABWUrOFaF4hh2ip3xj1AwAAAAAAAABY39PcRs8+ermcEb377uZL9nECLuwE5w==
+   eJzt2jEKwCAMBVAv5Ojo/a9VOjlUxXSwRd4bI3whSyAkJQAAaGqnlidvvNPrZdnwBwCwx+ocNv8BAACAP7l3C6v7CnuIJ/0DAAAAAAAAAOB0o7uXPKjPMiI3NJH8aDbfugBcYgSy
   </data>
  </layer>
 </map>

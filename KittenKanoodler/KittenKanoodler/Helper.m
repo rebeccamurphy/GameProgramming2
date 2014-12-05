@@ -12,6 +12,7 @@
 #import "InterLevel.h"
 #import "LevelSequence.h"
 #import "SoundEffects.h"
+#import "Score.h"
 #import "HighScoresScreen.h"
 
 @implementation Helper
@@ -25,6 +26,14 @@
     }
     else {	
         [SoundEffects cheer];
+        
+        //Deal with high scores
+        [Score setHighScores];
+        
+        [Score increment:(0-[Score score])];
+        
+        [LevelSequence resetLevels];
+
         
         [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:2.0 scene:[HighScoresScreen scene]]];
     }

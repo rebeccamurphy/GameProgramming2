@@ -10,6 +10,7 @@
 
 #import "AppDelegate.h"
 #import "MainScreen.h"
+#import "Splash.h"
 #import "SoundEffects.h"
 
 @implementation MyNavigationController
@@ -52,7 +53,7 @@
 		// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
 		//[director runWithScene: [IntroLayer scene]];
         [SoundEffects preload];
-        [[CCDirector sharedDirector] runWithScene:[MainScreen scene]];
+        [[CCDirector sharedDirector] runWithScene:[Splash scene]];
 	}
 }
 @end

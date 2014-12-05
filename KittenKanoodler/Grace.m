@@ -301,6 +301,7 @@
 }
 
 - (void) weaponize {
+    self.color = ccc3(0, 0, 255);
     weaponized = true;
 }
 

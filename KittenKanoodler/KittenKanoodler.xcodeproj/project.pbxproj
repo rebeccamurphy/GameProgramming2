@@ -196,15 +196,16 @@
 		2F90675519E3867C000AA3AE /* AudioScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675419E3867C000AA3AE /* AudioScreen.m */; };
 		2F90675819E388D6000AA3AE /* SkillLevelScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675719E388D6000AA3AE /* SkillLevelScreen.m */; };
 		2F90675B19E38AD8000AA3AE /* HighScoresScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */; };
-		2F9CE4BC1A0C1EAE00CBC2B4 /* tiles_mga.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4BB1A0C1EAE00CBC2B4 /* tiles_mga.png */; };
 		2F9CE4F91A0C3DD400CBC2B4 /* kittenkanoodler_level0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4F51A0C3DD400CBC2B4 /* kittenkanoodler_level0.tmx */; };
 		2F9CE4FA1A0C3DD400CBC2B4 /* kittenkanoodler_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4F61A0C3DD400CBC2B4 /* kittenkanoodler_level1.tmx */; };
 		2F9CE4FC1A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CE4F81A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx */; };
 		2FB641BE1A0D451300157819 /* Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB641BD1A0D451300157819 /* Splash.m */; };
-		2FB7B6D41A267DB20094C28D /* swagshark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB7B6D31A267DB20094C28D /* swagshark.png */; };
 		2FBB30EE1A0F26160091BF88 /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB30ED1A0F26160091BF88 /* Level2.m */; };
 		2FBB30F11A0F27180091BF88 /* Level3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB30F01A0F27180091BF88 /* Level3.m */; };
 		2FBB30F31A0F2D850091BF88 /* kittenkanoodler_level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB30F21A0F2D850091BF88 /* kittenkanoodler_level2.tmx */; };
+		2FFC23351A2E8F34005486E3 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FFC23341A2E8F34005486E3 /* kitten.jpg */; };
+		2FFC23371A2E9325005486E3 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFC23361A2E9325005486E3 /* ball.png */; };
+		2FFC233B1A2E9751005486E3 /* tiles_mga.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFC233A1A2E9751005486E3 /* tiles_mga.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -577,18 +578,19 @@
 		2F90675719E388D6000AA3AE /* SkillLevelScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillLevelScreen.m; sourceTree = "<group>"; };
 		2F90675919E38AD8000AA3AE /* HighScoresScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresScreen.h; sourceTree = "<group>"; };
 		2F90675A19E38AD8000AA3AE /* HighScoresScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresScreen.m; sourceTree = "<group>"; };
-		2F9CE4BB1A0C1EAE00CBC2B4 /* tiles_mga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles_mga.png; sourceTree = "<group>"; };
 		2F9CE4F51A0C3DD400CBC2B4 /* kittenkanoodler_level0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kittenkanoodler_level0.tmx; sourceTree = "<group>"; };
 		2F9CE4F61A0C3DD400CBC2B4 /* kittenkanoodler_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kittenkanoodler_level1.tmx; sourceTree = "<group>"; };
 		2F9CE4F81A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kittenkanoodler_level3.tmx; sourceTree = "<group>"; };
 		2FB641BC1A0D451300157819 /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Splash.h; sourceTree = "<group>"; };
 		2FB641BD1A0D451300157819 /* Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Splash.m; sourceTree = "<group>"; };
-		2FB7B6D31A267DB20094C28D /* swagshark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swagshark.png; sourceTree = "<group>"; };
 		2FBB30EC1A0F26160091BF88 /* Level2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2.h; sourceTree = "<group>"; };
 		2FBB30ED1A0F26160091BF88 /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level2.m; sourceTree = "<group>"; };
 		2FBB30EF1A0F27180091BF88 /* Level3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level3.h; sourceTree = "<group>"; };
 		2FBB30F01A0F27180091BF88 /* Level3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level3.m; sourceTree = "<group>"; };
 		2FBB30F21A0F2D850091BF88 /* kittenkanoodler_level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kittenkanoodler_level2.tmx; sourceTree = "<group>"; };
+		2FFC23341A2E8F34005486E3 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		2FFC23361A2E9325005486E3 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		2FFC233A1A2E9751005486E3 /* tiles_mga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles_mga.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -687,8 +689,9 @@
 		2F818F201A08657B00681612 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2FB7B6D31A267DB20094C28D /* swagshark.png */,
-				2F9CE4BB1A0C1EAE00CBC2B4 /* tiles_mga.png */,
+				2FFC233A1A2E9751005486E3 /* tiles_mga.png */,
+				2FFC23361A2E9325005486E3 /* ball.png */,
+				2FFC23341A2E8F34005486E3 /* kitten.jpg */,
 				2F818F5B1A0875A500681612 /* firepit-3-32x62.png */,
 				2F818F211A0865D800681612 /* dpadDown3.png */,
 				2F818F221A0865D800681612 /* goal_2.png */,
@@ -1274,6 +1277,7 @@
 				2F9065BB19E363DC000AA3AE /* Icon.png in Resources */,
 				2F818F5C1A0875A500681612 /* firepit-3-32x62.png in Resources */,
 				2F90671919E363DE000AA3AE /* ChangeLog in Resources */,
+				2FFC23351A2E8F34005486E3 /* kitten.jpg in Resources */,
 				2F818F421A08665C00681612 /* cheer2.mp3 in Resources */,
 				2F9065AD19E363DC000AA3AE /* Default@2x.png in Resources */,
 				2F818F2A1A0865D800681612 /* dpadDown3.png in Resources */,
@@ -1283,15 +1287,15 @@
 				2F9065B719E363DC000AA3AE /* Icon-Small.png in Resources */,
 				2F818F471A08665C00681612 /* you-got-it-1.mp3 in Resources */,
 				2F9065B319E363DC000AA3AE /* Icon-72.png in Resources */,
+				2FFC23371A2E9325005486E3 /* ball.png in Resources */,
 				2FBB30F31A0F2D850091BF88 /* kittenkanoodler_level2.tmx in Resources */,
-				2F9CE4BC1A0C1EAE00CBC2B4 /* tiles_mga.png in Resources */,
 				2F9CE4FC1A0C3DD400CBC2B4 /* kittenkanoodler_level3.tmx in Resources */,
+				2FFC233B1A2E9751005486E3 /* tiles_mga.png in Resources */,
 				2F9065AB19E363DC000AA3AE /* Default.png in Resources */,
 				2F818F451A08665C00681612 /* wow.mp3 in Resources */,
 				2F818F3F1A08665C00681612 /* aaaah.mp3 in Resources */,
 				2F9065B519E363DC000AA3AE /* Icon-Small-50.png in Resources */,
 				2F818F461A08665C00681612 /* you-can-do-it.mp3 in Resources */,
-				2FB7B6D41A267DB20094C28D /* swagshark.png in Resources */,
 				2F9065C019E363DC000AA3AE /* iTunesArtwork in Resources */,
 				2F818F4B1A08669900681612 /* 4225775_The_River_War_Original_Mix.mp3 in Resources */,
 				2F818F491A08665C00681612 /* yummy2.mp3 in Resources */,

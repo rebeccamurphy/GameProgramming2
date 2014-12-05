@@ -69,7 +69,7 @@
         
         [LevelSequence resetLevels];
         
-    }
+    }          
     return self;
 }
 - (void) onBack:(CCMenuItemFont*) button{
